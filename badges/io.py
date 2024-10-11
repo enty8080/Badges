@@ -56,16 +56,6 @@ class IO(object):
         globals()['log'] = log
 
     @staticmethod
-    def set_history(history: str) -> None:
-        """ Set history path.
-
-        :param str history: history path
-        :return None: None
-        """
-
-        globals()['history'] = history
-
-    @staticmethod
     def set_less(less: bool) -> None:
         """ Enable/disable less-like output.
 
