@@ -27,12 +27,6 @@ from colorscript import ColorScript
 
 
 class Tables(object):
-    """ Subclass of badges module.
-
-    This subclass of badges module is intended for
-    providing an implementation for tables printer, which can
-    print data as a table.
-    """
 
     def print_table(self, name: str, headers: tuple, *args, **kwargs) -> None:
         """ Print table.
